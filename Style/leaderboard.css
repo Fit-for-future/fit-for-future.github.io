@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0e0f14;
+}
+.leaderboard {
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    background-color: #161b29;
+}
+.leaderboard header {
+    color: white;
+    text-transform: uppercase;
+    height: 12rem;
+    position: relative;
+    background: url('../imgs/running.jpg') no-repeat top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leaderboard h1 {
+    font-size: 3rem;
+    text-align: center;
+    background: none;
+    margin: 0;
+}
+.leaderboard table {
+    background-color: #161b29;
+    color: #999;
+    width: 100%;
+    border-collapse: collapse;
+    /* border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem; */
+    overflow: hidden;
+}
+  
+thead {
+    font-size: 0.7rem;
+    color: #555;
+    text-transform: uppercase;
+}
+  
+tbody .nick {
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+  
+tbody tr:nth-child(2n) {
+    background-color: #161b29;
+}
+
+#top {
+    border: solid 1px rgb(74, 147, 180);
+    border-left: solid 2px rgb(74, 147, 180);
+}
+
+.nick {
+    text-align: left;
+}
+  
+.rank,
+.sp,
+.kd {
+    text-align: right;
+}
+  
+.rank {
+    width: 4ch;
+    padding-left: 1rem;
+}
+  
+.sp,
+.kd {
+    width: 8ch;
+}
+  
+th {
+    padding: 1.5rem 1rem 0.5rem;
+}
+  
+td {
+    padding: 1rem 1rem;
+} 
+
+.leaderboard h5 {
+    color: rgb(172, 172, 172);
+    text-align: center;
+    margin: 10px;
+}
