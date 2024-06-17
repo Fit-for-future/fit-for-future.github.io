@@ -5,25 +5,128 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <link rel="stylesheet" href="Style/leaderboard.css">
-    <link rel="stylesheet" href="Style/kurse.css">
-    <link rel="stylesheet" href="Style/logo.css">
+    <!-- <script src="https://unpkg.com/@phosphor-icons/web"></script> -->
+    <!-- <link rel="stylesheet" href="Style/leaderboard.css">
+    <link rel="stylesheet" href="Style/impressum.css"> -->
     <link rel="stylesheet" href="Style/impressum.css">
+    <link rel="stylesheet" href="Style/box.css">
+    <link rel="stylesheet" href="Style/general.css">
+    <link rel="stylesheet" href="Style/logo.css">
     <link
     href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
     rel="stylesheet"
     />
 </head>
+
+<!-- 2B0348 -->
+
 <body>
-    <main>
-      <header class="logo">
-        <h1>Fit for Future</h1>
-        <img src="imgs/removed_bg.png" alt="">
-        <h5>Deine gesundheit deine Zukunft</h5>
-      </header>
+    <main class="main">
+      <div class="logo">
+        <img src="Images/Logo.png" alt="">
+        <h5>Deine Gesundheit, deine Zukunft!</h5>
+      </div>
 
       <div class="kurse">
+        <div class="image-container">
+          <img src="Images/bycicle.jpg" alt="">
+          <h2>Unsere Kurse</h2>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th class="rank"></th>
+              <th class="nick">Kurs</th>
+              <th class="sp">Teilnehmer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="top">
+              <td class="rank">1</td>
+              <td class="nick">Pilates</td>
+              <td class="sp">98</td>
+            </tr>
+            <tr>
+              <td class="rank">2</td>
+              <td class="nick">Self defense</td>
+              <td class="sp">73</td>
+            </tr>
+            <tr>
+              <td class="rank">3</td>
+              <td class="nick">Yoga</td>
+              <td class="sp">71</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <a href="#booking">Kurs Buchen</a>
+
+      </div>
+
+
+      <div class="kurse">
+        <div class="image-container">
+          <img src="Images/running.jpg" alt="">
+          <h2>Turnier</h2>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th class="rank">Platz</th>
+              <th class="nick">Name</th>
+              <th class="sp">Punkte</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="top">
+              <td class="rank">1</td>
+              <td class="nick">👑 Taqwa</td>
+              <td class="sp">6308</td>
+            </tr>
+            <tr>
+              <td class="rank">2</td>
+              <td class="nick">Azad</td>
+              <td class="sp">5301</td>
+            </tr>
+            <tr>
+              <td class="rank">3</td>
+              <td class="nick">Nazli</td>
+              <td class="sp">4108</td>
+            </tr>
+            <tr>
+              <td class="rank">4</td>
+              <td class="nick">Akram</td>
+              <td class="sp">3108</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          Unsere Turniere finden monatlich statt. Jeder Teilnehmer erhält die Chance, seinen Monatsbeitrag erstattet zu bekommen. 
+          Jedoch nur die Top 3 erhalten diesen Preis
+        </p>
+        <p>
+          Also, worauf wartest du? Melde dich an und mach mit!
+        </p>
+        <a href="#anmeldung">Jetzt anmelden</a>
+
+      </div>
+
+      <div class="impressum">
+        <h1>Impressum</h1>
+
+        <h4>Fit for Future</h4>
+        <h4>Nimmerlandstr. 69</h4>
+        <h4>69420 Frankfurt am Main</h4>
+
+        <h4 id="kontakt">Telefon: +49 80 123456</h4>
+        <h4>Email: kontakt@fit-for.future</h4>
+      </div>
+
+
+      <!-- <div class="kurse">
         <header>
           <h1>Angesagte Kurse</h1>
         </header>
@@ -107,7 +210,7 @@
 
         <h4 id="kontakt">Telefon: +49 80 123456</h4>
         <h4>Email: kontakt@fit-for.future</h4>
-      </div>
+      </div> -->
 
     </main>
 </body>

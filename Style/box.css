@@ -1,0 +1,110 @@
+
+.kurse {
+    margin: 10% 2% 0 2%;
+    border: 1px solid var(--three);
+    border-radius: 10px;
+    background-color: var(--one);
+    text-align: center;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    display: block; /* Ensures no extra space below the image */
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.kurse table {
+    background-color: var(--one);
+    color: #999;
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+  
+thead {
+    font-size: 0.7rem;
+    color: #555;
+    text-transform: uppercase;
+}
+
+tbody .nick {
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+
+#top {
+    border: solid 1px var(--three);
+    border-left: none;
+    border-right: none;
+    border-left: solid 2px var(--three);
+}
+
+.nick {
+    text-align: left;
+}
+  
+.rank,
+.sp,
+.kd {
+    text-align: right;
+}
+  
+.rank {
+    width: 4ch;
+    padding-left: 1rem;
+}
+  
+.sp,
+.kd {
+    width: 8ch;
+}
+  
+th {
+    padding: 1.5rem 1rem 0.5rem;
+}
+  
+td {
+    padding: 1rem 1rem;
+} 
+
+
+.kurse .button {
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--two);
+    border: none;
+    margin-bottom: 10px;
+}
+
+.kurse p {
+    margin-left: 10px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.kurse a {
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--two);
+    border: none;
+    margin-bottom: 10px;
+    text-decoration: none;
+    /* padding: 10px 20px;
+    background-color: var(--two);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px; */
+}
+.kurse a:hover {
+    background-color: #0056b3;
+}
